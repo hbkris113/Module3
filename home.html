@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
+
+    <content>
+      <p>Hello world!</p>
+      <!-- insert hello world here -->
+      <p>Thank You and welcome to the cool page.</p>
+
+      <ul>
+        <li>You're an awesome being!</li>
+        <li>Super Smart!</li>
+        <li>Always a winner!</li>
+      </ul>
+
+      <img
+        src="C:\Users\Heather\Google Drive\devmountain\assessment-front-end-web\assessment-front-end-web\20150126_152732.jpg"
+        onmouseover="alert('You are superb!')"
+      />
+    </content>
+
+    <h2>Contact Us</h2>
+    <form id="contact">
+      Your name:
+      <input type="text" />
+
+      Message:
+      <input type="textarea" />
+      <button onclick="myFunction()">Submit</button>
+      <script>
+        function myFunction() {
+          alert("submitted successfully!");
+        }
+      </script>
+    </form>
+    <h2>How did you hear about this website?</h2>
+    <form>
+      <input type="checkbox" id="option1" name="option1" value="Google" />
+      <label for="option1">Google</label
+      ><input type="checkbox" id="option2" name="option2" value="Friend" />
+      <label for="option2"> A Friend </label
+      ><input type="checkbox" id="option3" name="option3" value="Other" />
+      <label for="option3">Other</label><input type="submit" value="Submit" />
+    </form>
+
+    <script src="about.js"></script>
+  </body>
+</html>
